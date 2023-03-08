@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style2.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <form
+      action="mailto:mgspoorthi03@gmail.com"
+      method="text"
+      enctype="text/plain"
+    >
+      <div class="container">
+        <h1>Contact us</h1>
+        <br />
+        <input type="text" class="input1" placeholder="Enter your name" /><br />
+        <input
+          type="tel"
+          class="input2"
+          placeholder="Enter your mobile number"
+        /><br />
+        <input
+          type="email"
+          class="input3"
+          pattern=".+@gmail\.com"
+          size="30"
+          placeholder="Enter your Email"
+        /><br />
+        <p>Leave Comment</p>
+        <textarea name="Message" class="input4" cols="30" rows="10"></textarea>
+        <br />
+        <input type="submit" value="Submit" class="submit" />
+        <br />
+
+        <br /><a class="btn btn-primary" href="./index.html" role="button"
+          >Back to home</a
+        >
+      </div>
+    </form>
+  </body>
+</html>
